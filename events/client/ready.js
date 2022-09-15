@@ -15,7 +15,7 @@ module.exports = {
 
         Logger.client(`- Le Bot est OP par ${userCount} utilisateur sur ${guildsCount.size} serveur !!!!!`)
 
-        client.user.setPresence({ activities: [{ name: 'Bot officiel du server Poudlard2032', type: 'CUSTOM' }], status: 'online' });
+        client.user.setPresence({ activities: [{ name: 'Bot officiel du server Poudlard2032', type: 'WATCHING' }], status: 'online' });
 
        // const devGuild = await client.guilds.cache.get('935664937076920341');
        // devGuild.commands.set(client.commands.map(cmd => cmd));
