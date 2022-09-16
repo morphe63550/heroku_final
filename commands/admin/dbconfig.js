@@ -69,6 +69,13 @@ module.exports = {
             }
                       
             interaction.reply({ content: `valeur de ticketCategory: ${guildSettings.ticketCategory}` });
+        }else if (key == 'ticketChannel') {
+            if (value) {
+                await client.updateGuild(interaction.guild, { ticketChannel: value });
+                return interaction.reply({ content: `Nouvelle valeur de ticketChannel: ${value}` });
+            }
+                      
+            interaction.reply({ content: `valeur de ticketChannel: ${guildSettings.ticketChannel}` });
         }
     }
 };
