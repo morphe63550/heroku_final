@@ -26,6 +26,10 @@ module.exports = {
                     value: 'testChannel'
                 },
                 {
+                    name:'ticketChannel',
+                    value:'ticketChannel'
+                },
+                {
                     name:'ticketCategory',
                     value:'ticketCategory'
                 }
